@@ -4,46 +4,41 @@ package com.example.user.employeeattendancemanagementsystem;
  * Created by user on 2/9/16.
  */
 public class Emloyee {
-    private int _employee_id;
-    private String _department;
-    private String _name;
-    private int _phone;
-    private int _age;
-    private int _salary;
+    private int employeeId = 0;
+    private String department = null;
+    private String name = null;
+    private int phone = 0;
+    private int age = 0;
 
-    public String get_department() {
-        return _department;
+    public String getDepartment() {
+        return department;
     }
 
-    public void set_department(String _department) {
-        this._department = _department;
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
-    public String get_name() {
-        return _name;
+    public String getName() {
+        return this.name;
     }
 
-    public int get_phone() {
-        return _phone;
+    public int getPhone() {
+        return this.phone;
     }
 
-    public void set_phone(int _phone) {
-        this._phone = _phone;
+    public void setPhone(int phone) {
+        this.phone = phone;
     }
 
-    public int get_age() {
-        return _age;
+    public int getAge() {
+        return this.age;
     }
 
-    public int get_employee_id() {
-        return _employee_id;
+    public void setAge(int age){ this.age = age;}
+
+    public int getEmployeeId() {
+        return this.employeeId;
     }
 
-    public int get_salary() {
-        return _salary;
-    }
-
-    public void set_salary(int _salary) {
-        this._salary = _salary;
-    }
+    public void setEmployeeId(int employeeId){ this.employeeId = employeeId;}
 }

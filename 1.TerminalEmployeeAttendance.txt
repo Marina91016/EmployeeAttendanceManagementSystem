@@ -1,0 +1,338 @@
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ pws
+bash: pws: command not found
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ pwd
+/Users/user/AndroidStudioProjects/EmployeeAttendanceManagementSystem
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git init
+Initialized empty Git repository in /Users/user/AndroidStudioProjects/EmployeeAttendanceManagementSystem/.git/
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git clone https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git
+Cloning into 'EmployeeAttendanceManagementSystem'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        .idea/
+        EmployeeAttendanceManagementSystem/
+        app/
+        build.gradle
+        gradle.properties
+        gradle/
+        gradlew
+        gradlew.bat
+        settings.gradle
+        shecodesemployeeattendancemanagementsystem/
+
+nothing added to commit but untracked files present (use "git add" to track)
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git add .
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   .idea/.name
+        new file:   .idea/compiler.xml
+        new file:   .idea/copyright/profiles_settings.xml
+        new file:   .idea/gradle.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/runConfigurations.xml
+        new file:   .idea/vcs.xml
+        new file:   EmployeeAttendanceManagementSystem
+        new file:   app/.gitignore
+        new file:   app/build.gradle
+        new file:   app/proguard-rules.pro
+        new file:   app/src/androidTest/java/com/example/user/employeeattendancemanagementsystem/ApplicationTest.java
+        new file:   app/src/main/AndroidManifest.xml
+        new file:   app/src/main/java/com/example/user/employeeattendancemanagementsystem/AttendanceLog.java
+        new file:   app/src/main/java/com/example/user/employeeattendancemanagementsystem/Departments.java
+        new file:   app/src/main/java/com/example/user/employeeattendancemanagementsystem/Emloyee.java
+        new file:   app/src/main/java/com/example/user/employeeattendancemanagementsystem/MainActivity.java
+        new file:   app/src/main/java/com/example/user/employeeattendancemanagementsystem/RunSheCodesAttendanceSystem.java
+        new file:   app/src/main/res/layout/activity_main.xml
+        new file:   app/src/main/res/mipmap-hdpi/ic_launcher.png
+        new file:   app/src/main/res/mipmap-mdpi/ic_launcher.png
+        new file:   app/src/main/res/mipmap-xhdpi/ic_launcher.png
+        new file:   app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+        new file:   app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+        new file:   app/src/main/res/values-w820dp/dimens.xml
+        new file:   app/src/main/res/values/colors.xml
+        new file:   app/src/main/res/values/dimens.xml
+        new file:   app/src/main/res/values/strings.xml
+        new file:   app/src/main/res/values/styles.xml
+        new file:   app/src/test/java/com/example/user/employeeattendancemanagementsystem/ExampleUnitTest.java
+        new file:   build.gradle
+        new file:   gradle.properties
+        new file:   gradle/wrapper/gradle-wrapper.jar
+        new file:   gradle/wrapper/gradle-wrapper.properties
+        new file:   gradlew
+        new file:   gradlew.bat
+        new file:   settings.gradle
+        new file:   shecodesemployeeattendancemanagementsystem/.gitignore
+        new file:   shecodesemployeeattendancemanagementsystem/build.gradle
+        new file:   shecodesemployeeattendancemanagementsystem/src/main/java/com/example/MyClass.java
+
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git commit -m "add initial project files"
+[master (root-commit) fdd616e] add initial project files
+ 42 files changed, 687 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .idea/.name
+ create mode 100644 .idea/compiler.xml
+ create mode 100644 .idea/copyright/profiles_settings.xml
+ create mode 100644 .idea/gradle.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/runConfigurations.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 160000 EmployeeAttendanceManagementSystem
+ create mode 100644 app/.gitignore
+ create mode 100644 app/build.gradle
+ create mode 100644 app/proguard-rules.pro
+ create mode 100644 app/src/androidTest/java/com/example/user/employeeattendancemanagementsystem/ApplicationTest.java
+ create mode 100644 app/src/main/AndroidManifest.xml
+ create mode 100644 app/src/main/java/com/example/user/employeeattendancemanagementsystem/AttendanceLog.java
+ create mode 100644 app/src/main/java/com/example/user/employeeattendancemanagementsystem/Departments.java
+ create mode 100644 app/src/main/java/com/example/user/employeeattendancemanagementsystem/Emloyee.java
+ create mode 100644 app/src/main/java/com/example/user/employeeattendancemanagementsystem/MainActivity.java
+ create mode 100644 app/src/main/java/com/example/user/employeeattendancemanagementsystem/RunSheCodesAttendanceSystem.java
+ create mode 100644 app/src/main/res/layout/activity_main.xml
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/values-w820dp/dimens.xml
+ create mode 100644 app/src/main/res/values/colors.xml
+ create mode 100644 app/src/main/res/values/dimens.xml
+ create mode 100644 app/src/main/res/values/strings.xml
+ create mode 100644 app/src/main/res/values/styles.xml
+ create mode 100644 app/src/test/java/com/example/user/employeeattendancemanagementsystem/ExampleUnitTest.java
+ create mode 100644 build.gradle
+ create mode 100644 gradle.properties
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100755 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 settings.gradle
+ create mode 100644 shecodesemployeeattendancemanagementsystem/.gitignore
+ create mode 100644 shecodesemployeeattendancemanagementsystem/build.gradle
+ create mode 100644 shecodesemployeeattendancemanagementsystem/src/main/java/com/example/MyClass.java
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git status
+On branch master
+nothing to commit, working directory clean
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push origin EmployeeAttendanceManagementSystem
+error: src refspec EmployeeAttendanceManagementSystem does not match any.
+error: failed to push some refs to 'origin'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git status
+On branch master
+nothing to commit, working directory clean
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git status
+On branch master
+nothing to commit, working directory clean
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git reflog
+fdd616e HEAD@{0}: commit (initial): add initial project files
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git status
+On branch master
+nothing to commit, working directory clean
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git branch
+* master
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ get diff
+bash: get: command not found
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git diff
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git status
+On branch master
+nothing to commit, working directory clean
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git reflog
+fdd616e HEAD@{0}: commit (initial): add initial project files
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push origin
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push origin/EmployeeAttendanceManagementSystem
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin/EmployeeAttendanceManagementSystem master
+
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push remote EmployeeAttendanceManagementSystem
+error: src refspec EmployeeAttendanceManagementSystem does not match any.
+error: failed to push some refs to 'remote'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push remote origin/EmployeeAttendanceManagementSystem
+error: src refspec origin/EmployeeAttendanceManagementSystem does not match any.
+error: failed to push some refs to 'remote'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push remote origin /EmployeeAttendanceManagementSystem
+fatal: remote part of refspec is not a valid name in /EmployeeAttendanceManagementSystem
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push remote origin/EmployeeAttendanceManagementSystem master
+error: src refspec origin/EmployeeAttendanceManagementSystem does not match any.
+error: failed to push some refs to 'remote'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push remote EmployeeAttendanceManagementSystem master
+error: src refspec EmployeeAttendanceManagementSystem does not match any.
+error: failed to push some refs to 'remote'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git -vv
+Unknown option: -vv
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git remote -vv
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git remote
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push remote origin marinabronfman/EmployeeAttendanceManagementSystem
+error: src refspec origin does not match any.
+error: src refspec marinabronfman/EmployeeAttendanceManagementSystem does not match any.
+error: failed to push some refs to 'remote'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git remote -v
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git remote add marina https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git remote -v
+marina  https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git (fetch)
+marina  https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git (push)
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push marina
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream marina master
+
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push remote marina
+error: src refspec marina does not match any.
+error: failed to push some refs to 'remote'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push marina master
+To https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push marina origin
+error: src refspec origin does not match any.
+error: failed to push some refs to 'https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git pull marina
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/marinabronfman/EmployeeAttendanceManagementSystem
+ * [new branch]      master     -> marina/master
+You asked to pull from the remote 'marina', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push marina origin
+error: src refspec origin does not match any.
+error: failed to push some refs to 'https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git'
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push marina master
+To https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git pull marina
+You asked to pull from the remote 'marina', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git pull marina master
+From https://github.com/marinabronfman/EmployeeAttendanceManagementSystem
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ git push marina master
+Counting objects: 83, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (53/53), done.
+Writing objects: 100% (83/83), 88.16 KiB | 0 bytes/s, done.
+Total 83 (delta 2), reused 0 (delta 0)
+To https://github.com/marinabronfman/EmployeeAttendanceManagementSystem.git
+   c1a7fd9..f243e02  master -> master
+users-MacBook-Pro:EmployeeAttendanceManagementSystem user$ 
